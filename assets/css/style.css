@@ -60,7 +60,7 @@ nav{
 
 
 .miska{
-    height: 298dvh;
+    height: 300dvh;
     background: linear-gradient(#5DE0E6 25%, #004AAD 75% )       ;
 }
 
@@ -95,7 +95,7 @@ nav{
 
 
 .bottom{
-    width: 95rem;
+    width: 500rem;
     justify-content: flex-end;
 }
 
