@@ -86,9 +86,10 @@ nav{
     .namecard{
         .bg-img2{
         position: absolute;
-        align-items:flex-end ;
+        justify-content: space-between;
         z-index: 1;
-        width: 45rem;
+        width: 35rem;
+        transform: translate(45rem, -65rem);
         }
     }
 
