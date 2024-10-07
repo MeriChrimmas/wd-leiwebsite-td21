@@ -76,17 +76,25 @@ nav{
     padding: 0;
     display: flex;
     align-items: center;
-    height: 250dvh;
+    height: 300dvh;
     .bg-img{
         position: absolute;
         z-index: -1;
-        width: 55rem;
+        width: 60rem;
 
     }
-    
+    .namecard{
+        .bg-img2{
+        position: absolute;
+        align-items:flex-end ;
+        z-index: 1;
+        width: 45rem;
+        }
+    }
+
     .content-container{
-    transform: translate(8rem, -22rem);
-    border: 6px orange solid; 
+    transform: translate(14rem, -23rem);
+    border: 6px orange solid;
     border-radius: 20px;;
     background-color: yellow;
     padding: 1rem;
@@ -108,8 +116,29 @@ nav{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
-
-
+.content-container2{
+    transform: translate(-30rem, -13rem);
+    border: 6px orange solid;
+    border-radius: 20px;;
+    background-color: yellow;
+    padding: 1rem;
+    width: 7dvw;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    h2{
+        color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        height: calc(3dvh - 5rem);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin:1rem, 0;
+    }
+}
 
 }
 
