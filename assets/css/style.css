@@ -59,19 +59,6 @@ nav{
 
 
 
-.miska{
-    height: 298dvh;
-    background: linear-gradient(#5DE0E6 25%, #004AAD 75% )       ;
-}
-
-
-.top{
-    width: 70rem;
-    padding: 7rem 0;
-    margin-right: 6rem;
-}
-
-
 .info{
     padding: 0;
     display: flex;
@@ -86,7 +73,6 @@ nav{
     .namecard{
         .bg-img2{
         position: absolute;
-        justify-content: space-between;
         z-index: 1;
         width: 35rem;
         transform: translate(45rem, -65rem);
@@ -122,35 +108,39 @@ nav{
     border: 6px orange solid;
     border-radius: 20px;;
     background-color: yellow;
-    padding: 1rem;
-    width: 7dvw;
+    padding: 2rem;
+    width: 9dvw;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     h2{
         color: black;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
         text-align: center;
-        height: calc(3dvh - 5rem);
+        height: calc(6dvh - 6rem);
         display: flex;
         justify-content:center;
         align-items: center;
         margin:1rem, 0;
     }
 }
-
+.skillset {
+    .digi{
+        position: absolute;
+        z-index: 1;
+        width: 20rem;
+        transform: translate(-20rem, -5rem);
+    }
+    .eye{
+        position: absolute;
+        z-index: 1;
+        width: 15rem;
+        transform: translate(-48rem, -9rem);
+    }
+}
 }
 
 
-.bottom{
-    width: 95rem;
-    justify-content: flex-end;
-}
 
-
-.mooska{
-    height: 200dvh;
-    background: linear-gradient(#004AAD 25%, #03276e 75% )       ;
-}
