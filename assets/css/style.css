@@ -127,20 +127,39 @@ nav{
     }
 }
 .skillset {
+    flex-direction: row;
     .digi{
         position: absolute;
         z-index: 1;
-        width: 20rem;
-        transform: translate(-20rem, -5rem);
+        width: 40rem;
+        transform: translate(-37rem, -9rem);
     }
     .eye{
         position: absolute;
         z-index: 1;
-        width: 15rem;
-        transform: translate(-48rem, -9rem);
+        width: 30rem;
+        transform: translate(-60rem, -13rem);
+    }
+    .canvas{
+        position: absolute;
+        z-index: 1;
+        width: 38rem;
+        transform: translate(-75rem, -6rem);
     }
 }
 }
 
 
+.info2{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 300dvh;
+    .bg-img3{
+        position: absolute;
+        z-index: -1;
+        width: 105rem;
+        transform: translate(-1rem, -35.5rem);
+    }
+}
 
