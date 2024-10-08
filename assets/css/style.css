@@ -64,7 +64,6 @@ nav{
     display: flex;
     align-items: center;
     height: 300dvh;
-    
     .bg-img{
         position: absolute;
         z-index: -1;
