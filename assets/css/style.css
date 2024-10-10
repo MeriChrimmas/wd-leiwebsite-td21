@@ -48,7 +48,9 @@ nav{
     }
 }
 
-
+.body{
+    background-image: linear-gradient( #5de0e6 25%, #030a4b 65%);
+}
 
 
 
@@ -68,6 +70,7 @@ nav{
         position: absolute;
         z-index: -1;
         width: 60rem;
+        display: flow-root;
 
     }
     .namecard{
@@ -76,6 +79,7 @@ nav{
         z-index: 1;
         width: 35rem;
         transform: translate(45rem, -65rem);
+        display: flow-root;
         }
     }
 
@@ -153,13 +157,13 @@ nav{
 
 .mid{
     float: inline-end;
-    transform: translate(-75rem, -40rem);
+    transform: translate(-55rem, -50rem);
     .content-container3{
         border: 6px orange solid;
         border-radius: 20px;;
         background-color: yellow;
         padding: 2rem;
-        width: 15dvw;
+        width: 35dvw;
         margin: auto;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         align-items: center;
@@ -175,6 +179,40 @@ nav{
             align-items: center;
             margin:1rem, 0;
         }
+        h4{
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2rem;
+            text-decoration-line: underline;
+            text-align: center;
+            height: calc(6dvh - 6rem);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin:1rem, 0;
+        }
+        h5{
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            height: calc(5dvh - 5rem);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin:1rem, 0;
+        }
+        h6{
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.7rem;
+            text-align: center;
+            height: calc(5dvh - 5rem);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin:1rem, 0;
+        }
     }
 }
 
@@ -182,12 +220,12 @@ nav{
     padding: 0;
     display: flex;
     align-items: center;
-    height: 300dvh;
+    height: 260dvh;
     .bg-img3{
         position: absolute;
         z-index: -1;
         width: 105rem;
-        transform: translate(-1rem, -35.5rem);
+        transform: translate(-1rem, -27.5rem);
     }
 }
 
