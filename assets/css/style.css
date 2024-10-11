@@ -18,7 +18,7 @@ a{
     background-color: teal ;
     align-items: center;
     justify-content: space-between;
-    padding: .3rem .5rem;
+    padding: .8rem .5rem;
     border: 2px #8d6bfe solid;
 }
 
@@ -49,7 +49,7 @@ nav{
 }
 
 body{
-    background: linear-gradient( #5de0e6 2%, #030a4b 98%);
+    background: linear-gradient( #5fabee 1%, #030a4b 99%);
 }
 
 
@@ -72,6 +72,48 @@ body{
         width: 60rem;
         display: flow-root;
 
+    }
+    .starone{
+        display: flow-root;
+        transform: translate(15rem, -27rem);
+        position: absolute;
+        z-index: 1;
+        width: 5rem;
+    }
+    .perl{
+        display: flow-root;
+        transform: translate(17rem, -18rem);
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+    }
+    .perltoo{
+        display: flow-root;
+        transform: translate(19rem, -18rem);
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+    }
+    .perltee{
+        display: flow-root;
+        transform: translate(21rem, -18rem);
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+    }
+    .perlfor{
+        display: flow-root;
+        transform: translate(50rem, -13rem);
+        position: absolute;
+        z-index: 1;
+        width: 4rem;
+    }
+    .perlfi{
+        display: flow-root;
+        transform: translate(63rem, -13rem);
+        position: absolute;
+        z-index: 1;
+        width: 4rem;
     }
     .namecard{
         .bg-img2{
@@ -155,8 +197,16 @@ body{
 }
 }
 
+
 .mid{
     float: inline-end;
+    .startoo{
+        display: flow-root;
+        transform: translate(-53rem, -52rem);
+        position: absolute;
+        z-index: 1;
+        width: 7rem;
+    }
     .content-container3{
         display: flow-root;
         transform: translate(-50rem, -50rem);
@@ -407,17 +457,11 @@ body{
             transform: translate(-27rem, -13rem);
         }
     }
-    .bg-img3{
-        position: absolute;
-        z-index: -1;
-        width: 105rem;
-        transform: translate(-1rem, -27.5rem);
-    }
 }
 
 .info2{
     padding: 0;
-    display: flex;
+    display: flow-root;
     align-items: center;
     height: 200dvh;
     .bg-img3{
