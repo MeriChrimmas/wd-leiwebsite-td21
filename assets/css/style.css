@@ -303,6 +303,17 @@ nav{
         h13{
             color: black;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.5rem;
+            text-align: justify;
+            height: calc(6dvh - 6rem);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin:1rem, 0;
+        }
+        h14{
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 1rem;
             text-align: justify;
             height: calc(6dvh - 6rem);
