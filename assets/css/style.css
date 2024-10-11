@@ -48,8 +48,8 @@ nav{
     }
 }
 
-.body{
-    background-color: linear-gradient( #5de0e6 25%, #030a4b 65%);
+body{
+    background: linear-gradient( #5de0e6 17%, #030a4b 83%);
 }
 
 
@@ -158,6 +158,7 @@ nav{
 .mid{
     float: inline-end;
     .content-container3{
+        display: flow-root;
         transform: translate(-50rem, -50rem);
         border: 6px orange solid;
         border-radius: 20px;;
@@ -215,6 +216,7 @@ nav{
         }
     }
     .content-container4{
+        display: flow-root;
         transform: translate(-10rem, -68rem);
         border: 6px orange solid;
         border-radius: 20px;;
@@ -237,6 +239,7 @@ nav{
         }
     }
     .content-container5{
+        display: flow-root;
         transform: translate(-10rem, -68rem);
         border: 6px orange solid;
         border-radius: 20px;;
@@ -324,6 +327,7 @@ nav{
         }
     }
     .container6{
+        display: flow-root;
         transform: translate(-28rem, -60rem);
         border: 6px rgb(76, 35, 133) solid;
         border-radius: 20px;;
@@ -345,6 +349,7 @@ nav{
         }
     }
     .gallery-cont{
+        display: flow-root;
         .bor{
             border-radius: 10px;
             position: absolute;
