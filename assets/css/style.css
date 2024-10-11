@@ -20,6 +20,7 @@ a{
     justify-content: space-between;
     padding: .8rem .5rem;
     border: 2px #8d6bfe solid;
+    width: 104rem;
 }
 
 
@@ -45,6 +46,20 @@ nav{
         & p{
             color: black;
         }
+    }
+}
+
+.footer{
+    display: flex;
+    background-color: #5fabee ;
+    padding: .8rem .5rem;
+    border: 2px #5fabee solid;
+    height: 23px;
+    width: 104rem;
+    justify-content: center;
+    .footertxt{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
@@ -463,7 +478,7 @@ body{
     padding: 0;
     display: flow-root;
     align-items: center;
-    height: 200dvh;
+    height: 199dvh;
     .bg-img3{
         position: absolute;
         z-index: -1;
