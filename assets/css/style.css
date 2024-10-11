@@ -364,7 +364,42 @@ nav{
             position: absolute;
             z-index: 1;
             width: 19rem;
+            transform: translate(-16rem, -43rem);
+        }
+        .whome{
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            width: 13rem;
             transform: translate(-27rem, -57rem);
+        }
+        .dog{
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            width: 17rem;
+            transform: translate(4rem, -37rem);
+        }
+        .crushie{
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            width: 15rem;
+            transform: translate(-49rem, -29rem);
+        }
+        .book{
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            width: 15rem;
+            transform: translate(-30rem, -33rem);
+        }
+        .spine{
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            width: 19rem;
+            transform: translate(-27rem, -13rem);
         }
     }
 }
