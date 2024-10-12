@@ -277,6 +277,20 @@ navt{
         z-index: 1;
         width: 3rem;
     }
+    .perlna{
+        display: flow-root;
+        transform: translate(-7rem, -51rem);
+        position: absolute;
+        z-index: 1;
+        width: 4rem;
+    }
+    .perlen{
+        display: flow-root;
+        transform: translate(17rem, -51rem);
+        position: absolute;
+        z-index: 1;
+        width: 4rem;
+    }
     .content-container3{
         display: flow-root;
         transform: translate(-50rem, -50rem);
