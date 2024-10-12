@@ -485,5 +485,63 @@ body{
         width: 105rem;
         transform: translate(-1rem, -13.5rem);
     }
+    .starstar{
+        display: flow-root;
+        transform: translate(-15rem, -2rem);
+        position: absolute;
+        z-index: 1;
+        width: 7rem;
+    }
+    .starstartoo{
+        display: flow-root;
+        transform: translate(-9rem, -1rem);
+        position: absolute;
+        z-index: 1;
+        width: 5rem;
+    }
+    .perla{
+        display: flow-root;
+        transform: translate(23rem, -2rem);
+        position: absolute;
+        z-index: 1;
+        width: 4rem;
+    }
+    .perlas{
+        display: flow-root;
+        transform: translate(26rem, -3rem);
+        position: absolute;
+        z-index: 1;
+        width: 6rem;
+    }
+    .octo{
+        display: flow-root;
+        transform: translate(-36rem, -1rem);
+        position: absolute;
+        z-index: 1;
+        width: 16rem;
+    }
+    .contacts{
+        display: flow-root;
+        transform: translate(19rem, 71rem);
+        border: 6px rgb(76, 35, 133) solid;
+        border-radius: 20px;;
+        background-color: rgb(0, 255, 157);
+        padding: 2rem;
+        width: 25dvw;
+        margin: auto;
+        align-items: center;
+    }
+    h16{
+        color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2rem;
+            text-align: justify;
+            text-transform: uppercase;
+            height: calc(6dvh - 6rem);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin:1rem, 0;
+    }
 }
 

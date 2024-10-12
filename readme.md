@@ -60,6 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
+The project is about making a personal website, containing a bit of info about oneself, skills, portfolio-
+almost like a decorated resume. Besides this being a midterm project this also serves as personal branding that
+can be used in the future. HTML and CSS were used, wherein HTML has the basic codes while CSS has the decorative ones.
+
 - What is the project
 - Whats the purpose
 - What are key components
@@ -68,7 +72,7 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- Single Page Website
 - Parallax transition
 - Transactional
 
@@ -118,3 +122,4 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|How To Add Footer in Html Website | Reference on how to add layer on my website | https://youtu.be/nkZz9DOBzBI?feature=shared|
