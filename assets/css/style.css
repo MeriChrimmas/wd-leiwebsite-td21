@@ -85,9 +85,25 @@ body{
     background: linear-gradient( #5fabee 1%, #030a4b 99%);
 }
 
-
-
-
+navt{
+    display: flex;
+    transform: translate(38rem, 73rem);
+    gap: 10rem;
+}
+.btnt{
+    border: 1px aqua solid;
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: aqua;
+    .fb{
+        width: 4rem;
+        justify-content: center;
+    }
+    .insta{
+        width: 4rem;
+        justify-content: center;
+    }
+}
 
 
 
@@ -558,20 +574,6 @@ body{
         position: absolute;
         z-index: 1;
         width: 16rem;
-    }
-    .fb{
-        display: flow-root;
-        transform: translate(-10rem, 3rem);
-        position: absolute;
-        z-index: 1;
-        width: 9rem;
-    }
-    .insta{
-        display: flow-root;
-        transform: translate(19rem, 3rem);
-        position: absolute;
-        z-index: 1;
-        width: 8rem;
     }
     .lg{
         display: flow-root;

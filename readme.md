@@ -122,4 +122,4 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-|How To Add Footer in Html Website | Reference on how to add layer on my website | https://youtu.be/nkZz9DOBzBI?feature=shared|
+|How To Add Footer in Html Website | Reference on how to add footer | https://youtu.be/nkZz9DOBzBI?feature=shared|
