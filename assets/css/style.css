@@ -222,6 +222,27 @@ body{
         z-index: 1;
         width: 7rem;
     }
+    .perlsi{
+        display: flow-root;
+        transform: translate(-20rem, -37rem);
+        position: absolute;
+        z-index: 1;
+        width: 7rem;
+    }
+    .perlse{
+        display: flow-root;
+        transform: translate(-23rem, -36rem);
+        position: absolute;
+        z-index: 1;
+        width: 5rem;
+    }
+    .perlet{
+        display: flow-root;
+        transform: translate(-25rem, -35rem);
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+    }
     .content-container3{
         display: flow-root;
         transform: translate(-50rem, -50rem);
@@ -516,6 +537,27 @@ body{
     .octo{
         display: flow-root;
         transform: translate(-36rem, -1rem);
+        position: absolute;
+        z-index: 1;
+        width: 16rem;
+    }
+    .fb{
+        display: flow-root;
+        transform: translate(-10rem, 3rem);
+        position: absolute;
+        z-index: 1;
+        width: 9rem;
+    }
+    .insta{
+        display: flow-root;
+        transform: translate(19rem, 3rem);
+        position: absolute;
+        z-index: 1;
+        width: 8rem;
+    }
+    .lg{
+        display: flow-root;
+        transform: translate(35rem, -1rem);
         position: absolute;
         z-index: 1;
         width: 16rem;
